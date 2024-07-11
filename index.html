@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.0/moment.min.js"></script>
+<body>
+    <section class="container">
+        <div id="Search">
+            <button><img id="hamBar_img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png" alt=""></button>
+            <div class="box">
+            <button id="Search_button" onclick="disnone()" class="haha"><img src="./image copy.png" alt=""></button>
+            <div id="input2">
+                <input id="input_text" type="text">
+                <button onclick="getNewByKeyword()" class="input_submit" id="input_submit">검색</button>
+            </div>
+            </div>
+        </div>
+        <section>
+        <div class="head_line">
+            <img src="./image.png" alt="">
+        </div>
+        <div id="menu">
+            <ul class="menu_list" id="none">
+            <div class="box2"><div id="close">X</div></div>
+            <li><button>General</button></li>
+            <li><button>Technology</button></li>
+            <li><button>Sports</button></li>
+            <li><button>Health</button></li>
+            <li><button>Science</button></li>
+            <li><button>Entertainment</button></li>
+            <li><button>Business</button></li>
+            </ul>
+        </div>
+        </section>
+        <section id="news_board">
+        </section>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
