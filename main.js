@@ -1,4 +1,4 @@
-const API_KEY = `5ca19004f97f4f5f9d74d0fbb95b21dc`;
+const API_KEY = `557ab4c2cf244be5a7d3bd6382bcb22a`;
 let newsList = [];
 const getLatesNews = async () => {
     const url = new URL(`https://noona-times-be-5ca9402f90d9.herokuapp.com/top-headlines?country=kr&apiKey=${API_KEY}`);
